@@ -7,11 +7,14 @@ $ source .venv/bin/activate
 ```
 - Install necessary dependencies
 ```bash
-$ pip install -r requirements.txt
+$ pip install cmake face_recognition numpy opencv-python
 ```
+
+### Start
 
 Now you can run the program:
 ```bash
+$ source .venv/bin/activate
 $ ./frpoc.py
 ```
 
